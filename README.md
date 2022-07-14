@@ -25,7 +25,9 @@ To get a local copy of this exercice, Please follow these simple example steps.
 
 **`you@your-Pc-name:~$ cd <folder>`**
 
- `npm install
+
+`npm install
+
   npm start`
 
 3. Press Enter to navigate to your local clone.
