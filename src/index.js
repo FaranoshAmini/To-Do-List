@@ -1,5 +1,4 @@
 import './style.css';
-
 function showTodo(todo) {
   const formList = document.querySelector('.form-list');
   const newList = document.createElement('li');
@@ -7,7 +6,7 @@ function showTodo(todo) {
   newList.innerHTML = `
     <input id='${todo.index}' class='check' type='checkbox'/>
     <span class='text'>${todo.description}</span>
-    <button class='delete'><img src='../images/dots.svg'></button>
+    <span class='delete'><i class="bi bi-three-dots-vertical"></i></span>
   `;
   formList.append(newList);
 }
