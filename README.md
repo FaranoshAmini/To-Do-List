@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://faranoshamini.github.io/To-Do-List/)
+[Live Demo Link]()
 
 
 ### Get Started
@@ -19,11 +19,14 @@ To get a local copy of this exercice, Please follow these simple example steps.
 
 1. Clone this repository or download the Zip folder:
 
-**`git clone git@github.com:FaranoshAmini/Awesome_Books_Using_ES6.git`**
+**`git clone git@github.com:FaranoshAmini/To-Do-List.git`**
 
 2. Navigate to the location of the folder in your machine:
 
 **`you@your-Pc-name:~$ cd <folder>`**
+
+`npm install
+  npm start`
 
 3. Press Enter to navigate to your local clone.
 
