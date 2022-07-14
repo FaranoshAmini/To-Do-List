@@ -59,11 +59,9 @@ input {
   justify-content: space-between;
 }
 
-.newlist {
+.newList {
   display: flex;
-  padding: 4px 8px;
   justify-content: space-between;
-  align-items: center;
 }
 
 .check {
