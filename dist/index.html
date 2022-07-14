@@ -3,10 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>To-Do List</title>
     <script defer="defer" src="runtime.bundle.js"></script>
     <script defer="defer" src="main.bundle.js"></script>
-    <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <form method="post" class="form">
+      <ul class="form-list">
+        <li class="title">
+          Today's To Do <i class="bi bi-arrow-repeat" id="arrow-repeat"></i>
+        </li>
+        <li>
+          <input class="action" placeholder="Add to your list..." /><i
+            class="bi bi-arrow-return-left"
+          ></i>
+        </li>
+      </ul>
+      <div class="clear">Clear all completed</div>
+    </form>
+  </body>
 </html>
