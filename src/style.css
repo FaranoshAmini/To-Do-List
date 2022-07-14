@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
 * {
   font-family: "Roboto", sans-serif;
   line-height: 30px;
@@ -52,9 +54,9 @@ input {
   font-style: italic;
 }
 
-img {
-  height: 18px;
-  width: 18px;
+.title {
+  display: flex;
+  justify-content: space-between;
 }
 
 .newlist {
