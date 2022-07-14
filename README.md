@@ -9,6 +9,10 @@
 - JavaScript/ES6
 - Webpack
 
+## Live Demo
+
+[Live Demo Link](https://faranoshamini.github.io/To-Do-List/)
+
 ### Get Started
 
 To get a local copy of this exercice, Please follow these simple example steps.
