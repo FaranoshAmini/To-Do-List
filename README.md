@@ -12,7 +12,6 @@
 ## Live Demo
 
 
-
 ### Get Started
 
 To get a local copy of this exercice, Please follow these simple example steps.
@@ -20,6 +19,7 @@ To get a local copy of this exercice, Please follow these simple example steps.
 1. Clone this repository or download the Zip folder:
 
 **`git clone git@github.com:FaranoshAmini/To-Do-List.git`**
+
 
 2. Navigate to the location of the folder in your machine:
 
@@ -31,7 +31,6 @@ To get a local copy of this exercice, Please follow these simple example steps.
 3. Press Enter to navigate to your local clone.
 
 Now you can go and play with it as you wish :smile:
-
 
 ## Author
 
