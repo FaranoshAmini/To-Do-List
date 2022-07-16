@@ -43,7 +43,7 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background: #d3d3d3;
+  background: #fffa;
   border: 1px solid #aaa;
   border-radius: 0.25rem;
 }
@@ -70,7 +70,7 @@ button {
   flex-shrink: 1;
   flex-basis: 3.5rem;
   background-color: #eee;
-  border-color: #d3d3d3;
+  border-color: #aaa;
   padding: 0.5rem;
 }
 
