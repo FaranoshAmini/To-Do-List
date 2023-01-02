@@ -135,6 +135,7 @@ button {
 
 .btn-remove {
   color: red;
+  font-size: 30px;
 }
 
 .clearComplete {
