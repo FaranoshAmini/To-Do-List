@@ -41,7 +41,7 @@ function updateList() {
             <li class="card todo-list-item ${todo.completed ? 'completed' : ''}" data-id="${todo.id}">
               <input type="checkbox" ${todo.completed ? 'checked' : ''} class="checkbox"/>
               <input type="text" value="${todo.description}" class="inputtext" id="${todo.id}"/>
-              <button type="button">ðŸ—‘</button>
+              <button type="button">🗑</button>
             </li>
           `).join('');
 
