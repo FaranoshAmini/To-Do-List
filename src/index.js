@@ -1,5 +1,3 @@
-/* eslint-disable no-use-before-define */
-/* eslint-disable import/no-cycle */
 import './style.css';
 import { removeCompleted, toggleComplete } from './modules/interactive.js';
 
@@ -41,7 +39,7 @@ function updateList() {
             <li class="card todo-list-item ${todo.completed ? 'completed' : ''}" data-id="${todo.id}">
               <input type="checkbox" ${todo.completed ? 'checked' : ''} class="checkbox"/>
               <input type="text" value="${todo.description}" class="inputtext" id="${todo.id}"/>
-              <button type="button">🗑</button>
+              <button type="button" class="btn-remove">🗑</button>
             </li>
           `).join('');
 
