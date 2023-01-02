@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 body {
   font-size: 1rem;
   padding: 5% 30%;
@@ -132,6 +131,10 @@ button {
 .todo-list-item button:focus {
   transform: scale(0.9);
   outline: none;
+}
+
+.btn-remove {
+  color: red;
 }
 
 .clearComplete {
